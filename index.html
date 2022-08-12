@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Validation Practice </title>
+</head>
+<body>
+    <form action="">
+        <div id="email-form">
+            <label for="email">Email:</label>
+            <input class = "form" id = "email" type = "email" name="email" required="This is not the correct form">
+        </div>
+        <div id="country-form">
+            <label for="country">Country:</label>
+            <select  class = "form" id = "country" id="country" name="country">
+                <option>Please Select a Country</option>
+                <option value="AU">Australia</option>
+                <option value="IN">India</option>
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States</option>
+            </select>
+        </div>
+        <div id="zip-code-form">
+            <label for="zip">Zipcode:</label>
+            <input class = "form" id="zip" type="text" name="zip">
+        </div>
+        <div id ="pass-form">
+            <label for="password">Password:</label>
+            <input  class = "form" id="password" type="password" name="password">
+        </div>
+        <div id = "pass-conf-form">
+            <label for="pass-conf">Confirm Password:</label>
+            <input class = "form"  id ="pass-conf" type="password" name="pass-conf"> 
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
